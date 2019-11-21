@@ -1,0 +1,55 @@
+<!--Created and coded by Celine Murakami -->
+
+<!doctype html>
+<html>
+<head>
+	<title>Image Background Challenge</title>
+</head>
+<body>
+
+
+<div id="scroll">Nunc pellentesque fringilla tincidunt. Sed pulvinar ornare diam, sit amet ultricies justo luctus sed. Fusce id nisl in est tempor varius eget eu justo. Cras ut quam auctor, pharetra elit et, elementum augue. Nulla molestie felis ac libero pharetra interdum. Ut at vulputate nibh. Nam ut elit a mi molestie placerat. Mauris sodales varius dui quis porta. Ut interdum massa id suscipit lobortis. Mauris ornare, justo et dignissim molestie, dui eros viverra quam, vel laoreet purus magna ut ligula. Vivamus vitae velit ut augue auctor semper. Donec id pretium sem. Aliquam molestie at leo eu blandit. Integer accumsan arcu id fermentum hendrerit. Proin ut interdum felis. In elementum lacus ac massa suscipit, eget accumsan eros luctus.</div>
+
+<style>
+
+/*  This affects the dropletter  */
+    div::first-letter {
+        background-image: radial-gradient(circle, lime, darkgreen);
+        background-size: 100% 100%;
+        color: rgb(235, 247, 54);
+        background-repeat: no-repeat;
+        border: 5px double rgb(47,226,45);
+        font-size: 100px;
+        font-family:"Times";
+        font-weight:bolder;
+        text-shadow: 2px 2px black;
+        float: left;
+        padding: 0px 8px;
+        line-height: 90px;
+        margin:3px;
+    }
+    
+/*   This code below is to affect the text size after the dropletter */
+    div {
+                font-size: 19.5px;
+            }
+
+/* This code below is to make adjustments to the scroll itself such as the size, padding, etc. to the scroll */
+    #scroll {
+        margin: 20px;
+        max-width: 10000px;
+        min-width: 500px;
+        max-height: auto;
+        min-height: auto;
+        padding-top: 55px;
+        padding-right: 85px;
+        padding-left: 79px;
+        padding-bottom: 56px;
+        background: url(scroll_left.jpg) top left no-repeat, url(scroll_right.jpg) top right no-repeat, url(scroll_middle.jpg) center top repeat-x;
+        background-size: contain;
+        font-family:"Times";    
+    }
+    
+</style>
+</body>
+</html>
